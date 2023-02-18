@@ -31,6 +31,8 @@ $Escape::StopTriggeredAction()
 
 #if
 
+#IfWinNotActive USV04844708 - Desktop Viewer
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Touch ;;;;;;;;;;;;;;;;;;;;;;;
 ;keys
 
@@ -94,7 +96,7 @@ XButton2::
 return
 
 ^XButton2::!esc
-    
+#if    
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; Methods ;;;;;;;;;;;;;;;;;;;;;;;;;
 
